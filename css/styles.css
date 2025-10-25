@@ -1,7 +1,25 @@
+/*.raleway-<uniquifier> {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}*/
+
+/*.roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}*/
+
+
+
 body {
-  font-family: "Roboto", ;
-  color: ;
-  background-color: ;
+  font-family: "Roboto", sans-serif;
+  color: #2E2F42;
+  background-color: #ffffff;
 }
 
 a {
@@ -12,18 +30,91 @@ ul {
     list-style-type: none;
 }
 
-.link-nav {
-    
+/* Header */
+.header-container {}
+
+.nav-list {}
+
+.nav-link {
+    color: #2E2F42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
 }
 
-.link-adress {
+.information {}
+
+.information .link-adress {
+color: #434455
+}
+
+
+/* Main */
+.page-main {
 
 }
 
-.title-main {
+/* Section Hero*/
+.hero {}
 
-}
+.hero-title {}
 
-.title-potential {
+.hero-button {}
 
-}
+/*Section Strategy*/
+.competence {}
+
+.competence-title {}
+
+.competence-list {}
+
+.link-competence {}
+
+.name-description {}
+
+.description {}
+
+/*Section Our Team*/
+.team-section {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-foto {}
+
+.team-name {}
+
+.team-pisition {}
+
+
+/*Section Portfolio*/
+.portfolio-section {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-image {}
+
+.portfolio-name {}
+
+.portfolio-category {}
+
+/*Footer*/
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
+
+
+
+
