@@ -9,15 +9,14 @@
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
-  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .hero-button {
   cursor: pointer;
-  background-color: #4d5ae5;
-  color: #ffffff;
   font-weight: 500;
   letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
 }
 
 .hero-button:hover,
